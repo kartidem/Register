@@ -1,0 +1,87 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+}
+
+img{
+    width: 275px;
+    height: 75px;
+}
+
+#login{
+    position: relative;
+    left: 4%;
+    top: 5%;
+}
+
+#valMSG{
+    position: relative;
+    top: 6%;
+    left: 4%;
+    font-size: small;
+    color: red;
+}
+
+#login-text{
+    position: relative;
+    top: 10%;
+    left: 4%;
+}
+
+h1{
+    font-size: 600%;
+}
+
+
+#bg-img{
+    position: absolute;
+    left: 55%;
+    top: 25%;
+}
+#bgimg{
+    width: 500px;
+    height: 400px;
+}
+
+#idinput{
+    width: 330px;
+    height: 35px;
+    outline: 1px solid #3f0891;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+#log-button1{
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration:none;
+    border: none;
+    cursor: pointer;
+    background-color: #5624a1;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+#log-button2{
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration:none;
+    border: none;
+    cursor: pointer;
+    background-color: #505050;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+
+#log-button1:hover{
+    background-color: #757575;
+}
+
+#log-button2:hover{
+    background-color: #757575;
+}
